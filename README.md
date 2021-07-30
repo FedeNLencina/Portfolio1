@@ -1,2 +1,2 @@
 # Portfolio
- Portfolio personal con datos personales y proyectos realizados
+ Portfolio personal con datos personales y proyectos realizados.
