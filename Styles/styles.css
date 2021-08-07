@@ -24,21 +24,58 @@ font-family: 'Noto Serif', serif;*/
     height: 300px;
 }
 
+.redes{
+    color: white;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+#description{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
 #imgAbout{
     border: 5px solid white;
     border-radius: 25%;
 }
 
 #skills{
-    border: 3px solid white;
+    border: 1px solid white;
     border-radius: 20px;
 }
 
 .iconosSkills{
     color: white;
     font-size: 60px;
-    border: 1px solid white;
-    border-radius: 10px;
-    
     text-align: center;
 }
+
+
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+ }
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+ }
