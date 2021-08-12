@@ -35,6 +35,13 @@ font-family: 'Noto Serif', serif;*/
     color: white;
 }
 
+#btnAbout{
+    background-color: rgba(0, 0, 0, 0.719);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    color: white;
+}
+
 #description{
     border: 1px solid white;
     border-radius: 10px;
@@ -45,18 +52,37 @@ font-family: 'Noto Serif', serif;*/
     border-radius: 25%;
 }
 
-#skills{
+/*#skills{
     border: 1px solid white;
     border-radius: 20px;
 }
-
+*/
 .iconosSkills{
     color: white;
     font-size: 60px;
     text-align: center;
 }
 
+#carfitness{
+    background-image: url("../Images/Carfitness.png");
+    background-position:center ;
+    background-size: cover;
+    height: 500px;
+}
 
+#portfolio{
+    background-image: url("../Images/Portfolio.png");
+    background-position:center ;
+    background-size: cover;
+    height: 500px;
+}
+
+#deposito{
+    background-image: url("../Images/Deposito.png");
+    background-position:center ;
+    background-size: cover;
+    height: 500px;
+}
 /* X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap*/
 
