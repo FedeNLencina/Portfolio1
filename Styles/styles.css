@@ -64,25 +64,54 @@ font-family: 'Noto Serif', serif;*/
 }
 
 #carfitness{
-    background-image: url("../Images/Carfitness.png");
-    background-position:center ;
-    background-size: cover;
-    height: 500px;
+    width: 90%;
+    height: 250px;
+    filter: blur(1px) grayscale(0.8);
 }
 
+#carfitness:hover{
+    filter: blur(0px) grayscale(0);
+    transition-timing-function:ease-out;
+    transition-duration: 1s;
+    transform: scale(1.2);
+}
+
+
 #portfolio{
-    background-image: url("../Images/Portfolio.png");
-    background-position:center ;
-    background-size: cover;
-    height: 500px;
+    width: 90%;
+    height: 250px;
+    filter: blur(1px) grayscale(0.8);
+}
+
+#portfolio:hover{
+    filter: blur(0px) grayscale(0);
+    transition-timing-function:ease-out;
+    transition-duration: 1s;
+    transform: scale(1.2);
 }
 
 #deposito{
-    background-image: url("../Images/Deposito.png");
-    background-position:center ;
-    background-size: cover;
-    height: 500px;
+    width: 90%;
+    height: 250px;
+    filter: blur(1px) grayscale(0.8);
 }
+
+#deposito:hover{
+    filter: blur(0px) grayscale(0);
+    transition-timing-function:ease-out;
+    transition-duration: 1s;
+    transform: scale(1.2);
+}
+
+.linksContact{
+    border: 2px solid white;
+}
+
+.linkContact{
+    border: 2px solid white;
+}
+
+
 /* X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap*/
 
