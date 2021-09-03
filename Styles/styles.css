@@ -235,9 +235,13 @@ font-family: 'Noto Serif', serif;*/
     }
 
     .itemsNavInferior a{
+        
+        font-size: 7px;
+    }
+
+    .linkBottom{
         margin-left: 4px;
         margin-right: 4px;
-        font-size: 7px;
     }
     
 }
