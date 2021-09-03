@@ -226,6 +226,10 @@ font-family: 'Noto Serif', serif;*/
        border: none;
     }
 
+    .linkContact .link a{
+        font-size: 20px;
+    }
+
     .itemsNavInferior{
         display: flex;
         flex-direction: row;
