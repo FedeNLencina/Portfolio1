@@ -76,6 +76,10 @@ font-family: 'Noto Serif', serif;*/
     border-radius: 10px;
 }
 
+#descripcion{
+    font-size: 18px;
+}
+
 #imgAbout{
     border: 5px solid white;
     border-radius: 25%;
@@ -156,6 +160,14 @@ font-family: 'Noto Serif', serif;*/
 /* X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap*/
 @media (max-width: 576px){
+    h1{
+        font-size: 20px;
+    }
+
+    #descripcion{
+        font-size: 13px;
+    }
+
     .skill_title{
         margin-top: 50px;
     }
@@ -222,6 +234,10 @@ font-family: 'Noto Serif', serif;*/
         margin-right: 5px;
     }
 
+    .itemsNavInferior a{
+        margin: 0px 10px;
+        font-size: 14px;
+    }
     
 }
 /* Small devices (landscape phones, 576px and up)*/
