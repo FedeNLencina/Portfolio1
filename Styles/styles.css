@@ -14,7 +14,9 @@ font-family: 'Noto Serif', serif;*/
 }
 
 
-
+#nombre{
+    font-size: 40px;
+}
 
 .nav-link {
     background: 
