@@ -168,7 +168,7 @@ font-family: 'Noto Serif', serif;*/
     }
 
     #nombre{
-    font-size: 16px;
+        font-size: 22px;
     }
 
     #descripcion{
@@ -219,6 +219,16 @@ font-family: 'Noto Serif', serif;*/
     #rowContact{
         padding-top: 0%;
         padding-bottom: 0%;
+    }
+
+    .linkContact{
+        border: 1px solid rgb(184, 181, 181);
+    }
+
+    
+    
+    .linkContact p{
+        font-size: 15px;
     }
 
     .linkContact  i:hover{
