@@ -56,30 +56,17 @@ font-family: 'Noto Serif', serif;*/
     color: white;
 }
 
-.redes a:hover{
-    transition-timing-function: ease-out;
-    transition-duration: 0.5s;
-    transform: scale(1.3);
-}
 
 #btnAbout{
-    background-color: rgba(19, 18, 18, 0.719);
+    background-color: rgba(0, 0, 0, 0.719);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     color: white;
 }
 
-#btnAbout:hover{
-    background-color: black;
-}
-
 #description{
     border: 1px solid white;
     border-radius: 10px;
-}
-
-#descripcion{
-    font-size: 18px;
 }
 
 #imgAbout{
@@ -95,9 +82,8 @@ font-family: 'Noto Serif', serif;*/
 }
 
 .iconosSkills i:hover{
-    color: rgb(155, 146, 146);
+    color: rgb(224, 224, 224);
 }
-
 #carfitness{
     width: 95%;
     height: 250px;
@@ -138,26 +124,20 @@ font-family: 'Noto Serif', serif;*/
     transform: scale(1.2);
 }
 
+
 .linkContact{
-    border: 2px solid white;
+    border: 2px solid rgb(104, 102, 102);
+    
 }
 
 .linkContact .link{
     color: white;
 }
 
-.linkContact  i:hover{
-    transition-timing-function: ease-in-out;
-    transition-duration: 1s;
-    transform: scale(1.3);
+.linkContact a i:hover{
+    color: rgb(224, 224, 224);
 }
 
-.copyright{
-    background-color: rgba(27, 26, 26, 0.603);
-}
-.copyright p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 
 /* X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap*/
@@ -245,7 +225,6 @@ font-family: 'Noto Serif', serif;*/
         margin-right: 3px;
         font-size: 13px;
     }
-    
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
