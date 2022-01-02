@@ -125,13 +125,13 @@ font-family: 'Noto Serif', serif;*/
     transform: scale(1.2);
 }
 
-#deposito{
+#react{
     width: 95%;
     height: 250px;
     filter: blur(1px) grayscale(0.8);
 }
 
-#deposito:hover{
+#react:hover{
     filter: blur(0px) grayscale(0);
     transition-timing-function:ease-out;
     transition-duration: 1s;
@@ -202,12 +202,12 @@ font-family: 'Noto Serif', serif;*/
         transform: none;
     }
     
-    #deposito{
+    #react{
         width: 100%;
         filter: none;
     }
     
-    #deposito:hover{
+    #react:hover{
         transform: none;
     }
 
